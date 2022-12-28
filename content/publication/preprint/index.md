@@ -1,69 +1,57 @@
 ---
-title: "An example preprint / working paper"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["3"]
-
-# Publication name and optional abbreviated publication name.
-publication: ""
+  - admin
+  - Ying Yan
 publication_short: ""
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags:
-- Source Themes
-featured: false
-
-links:
-- name: Custom Link
-  url: http://example.org
+abstract: In the past decade, various exact balancing-based weighting methods
+  were introduced to the causal inference literature. Exact balancing alleviates
+  the extreme weight and model misspecification issues that may incur when one
+  implements inverse probability weighting. It eliminates covariate imbalance by
+  imposing balancing constraints in an optimization problem. The optimization
+  problem can nevertheless be infeasible when there is bad overlap between the
+  covariate distributions in the treated and control groups or when the
+  covariates are high-dimensional. Recently, approximate balancing was proposed
+  as an alternative balancing framework, which resolves the feasibility issue by
+  using inequality moment constraints instead. However, it can be difficult to
+  select the threshold parameters when the number of constraints is large.
+  Moreover, moment constraints may not fully capture the discrepancy of
+  covariate distributions. In this paper, we propose Mahalanobis balancing,
+  which approximately balances covariate distributions from a multivariate
+  perspective. We use a quadratic constraint to control overall imbalance with a
+  single threshold parameter, which can be tuned by a simple selection
+  procedure. We show that the dual problem of Mahalanobis balancing is an l_2
+  norm-based regularized regression problem, and establish interesting
+  connection to propensity score models. We further generalize Mahalanobis
+  balancing to the high-dimensional scenario. We derive asymptotic properties
+  and make extensive comparisons with existing balancing methods in the
+  numerical studies.
+tags: []
+slides: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+publication_types:
+  - "3"
+summary: ""
+url_dataset: "#"
+url_project: ""
+url_source: "#"
+url_video: "#"
+publication: ""
+featured: false
+date: 2019-04-07T00:00:00Z
+url_slides: ""
+title: "Mahalanobis balancing: a multivariate perspective on approximate
+  covariate balancing"
+links:
+  - name: Custom Link
+    url: http://example.org
+projects: []
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ""
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- internal-project
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+publishDate: 2017-01-01T00:00:00Z
+url_poster: "#"
+url_code: https://github.com/wowchemy/wowchemy-hugo-themes
+doi: ""
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+R package available in [MBalance.](https://github.com/yimindai0521/MBalance)
