@@ -12,5 +12,19 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+  - block: collections
+    id: about
+    content:
+      # Choose a user profile to display (a folder name within `content/events/`)
+      username: admin
+      # Override your bio text from `authors/admin/_index.md`?
+      text:
+  - block: publications
+    id: about
+    content:
+      # Choose a user profile to display (a folder name within `content/events/`)
+      username: admin
+      # Override your bio text from `authors/admin/_index.md`?
+      text:
   
 ---
