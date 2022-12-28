@@ -10,6 +10,8 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      image:
+        filename: img_2943.jpg
       # Override your bio text from `authors/admin/_index.md`?
       text:
   - block: features
