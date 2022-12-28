@@ -8,10 +8,10 @@ education:
   courses:
     - course: Ph. D in Statistics
       institution: Texas A&M University
-      year: ""
+      year: -2
     - course: BSc in Statistics
       institution: Sun-Yat Sen University
-      year: 2024
+      year: 2022
 superuser: true
 status:
   icon: ☕️
