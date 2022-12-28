@@ -28,7 +28,7 @@ sections:
           description: 100%
           icon: chart-line
           icon_pack: fas
-    - block: collection
+  - block: collection
     id: featured
     content:
       title: Featured Publications
@@ -53,5 +53,4 @@ sections:
     design:
       columns: '2'
       view: citation
-  
 ---
