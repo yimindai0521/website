@@ -12,7 +12,7 @@ education:
     - course: BSc in Statistics
       institution: Sun-Yat Sen University
       year: 2022
-superuser: true
+superuser: false
 status:
   icon: ☕️
 last_name: Wu
