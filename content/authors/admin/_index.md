@@ -1,5 +1,5 @@
 ---
-avatar_filename: img_2943.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include causal inference and high-dimensional statistics.
 interests: []
 social: []
