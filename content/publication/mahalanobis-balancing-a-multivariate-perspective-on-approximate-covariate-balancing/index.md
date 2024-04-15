@@ -1,7 +1,7 @@
 ---
 title: "Mahalanobis balancing: a multivariate perspective on approximate
-  covariate balancing"
-subtitle: Scandinavian Journal of Statistics, Accepted
+  covariate balancing, Scandinavian Journal of Statistics, Accepted"
+subtitle: ""
 publication_types:
   - "0"
 authors:
