@@ -7,7 +7,8 @@ publication_types:
 authors:
   - admin
   - Ying Yan
-publication: Scandinavian Journal of Statistics, Accepted
+doi: Scandinavian Journal of Statistics, Accepted
+publication: ""
 abstract: In the past decade, various exact balancing-based weighting methods
   were introduced to the causal inference literature. Exact balancing alleviates
   the extreme weight and model misspecification issues that may incur when one
@@ -36,5 +37,5 @@ image:
   filename: ""
   focal_point: Smart
   preview_only: false
-date: 2022-12-29T07:18:07.632Z
+date: 2024-04-15T04:05:41.823Z
 ---
