@@ -1,14 +1,17 @@
 ---
-title: "Mahalanobis balancing: a multivariate perspective on approximate
-  covariate balancing, Scandinavian Journal of Statistics, Accepted"
+title: "Mahalanobis balancing: A multivariate perspective on approximate
+  covariate balancing"
 subtitle: ""
 publication_types:
-  - "0"
+  - "2"
 authors:
   - admin
   - Ying Yan
-doi: ""
-publication: ""
+doi: "10.1111/sjos.12721"
+publication: "*Scandinavian Journal of Statistics*, 51(4), 1450-1471"
+links:
+  - name: Published version
+    url: https://doi.org/10.1111/sjos.12721
 abstract: In the past decade, various exact balancing-based weighting methods
   were introduced to the causal inference literature. Exact balancing alleviates
   the extreme weight and model misspecification issues that may incur when one
@@ -38,5 +41,5 @@ image:
   focal_point: Smart
   preview_only: false
   caption: ""
-date: 2024-04-15T04:06:37.492Z
+date: 2024-12-01T00:00:00Z
 ---
