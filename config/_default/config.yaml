@@ -37,6 +37,7 @@ enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+disableKinds: [taxonomy, term]
 permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'

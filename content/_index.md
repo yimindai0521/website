@@ -5,13 +5,12 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.avatar
+  - block: about.biography
     id: about
     content:
+      title: About
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      # Override your bio text from `authors/admin/_index.md`?
-      text:
   - block: collection
     id: publications
     content:
@@ -24,24 +23,4 @@ sections:
     design:
       columns: '1'
       view: citation
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: 
-      # Contact (add or remove contact options as necessary)
-      email: yimindai1999@tamu.edu
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '2'
 ---

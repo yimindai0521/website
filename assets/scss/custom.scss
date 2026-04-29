@@ -1,0 +1,113 @@
+.wg-about-biography,
+.wg-collection {
+  background: #fff !important;
+}
+
+.wg-about-biography .container,
+.wg-collection .container {
+  max-width: 1040px;
+}
+
+.wg-about-biography .simple-profile {
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.wg-about-biography .simple-profile-avatar {
+  display: inline-block;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.wg-about-biography .simple-profile-avatar img {
+  display: block;
+  height: 180px;
+  max-height: 180px;
+  max-width: 180px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.wg-about-biography .portrait-title {
+  clear: both;
+  position: relative;
+  z-index: 2;
+}
+
+.wg-about-biography .portrait-title h2 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+.wg-about-biography .portrait-title h3 {
+  font-size: 1rem;
+}
+
+.wg-about-biography .network-icon {
+  margin-top: 1rem;
+}
+
+.wg-about-biography .bio-details {
+  margin-top: 1.5rem;
+}
+
+.wg-about-biography .bio-details h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.wg-about-biography .bio-details ul {
+  margin-bottom: 0;
+}
+
+.wg-about-biography .ul-interests li {
+  margin-bottom: 0.35rem;
+}
+
+.wg-about-biography .ul-edu .course {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.wg-about-biography .ul-edu .institution {
+  color: #707070;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.wg-about-biography {
+  padding-bottom: 35px;
+  padding-top: 55px;
+}
+
+.wg-collection {
+  padding-bottom: 70px;
+  padding-top: 25px;
+}
+
+.wg-about-biography h1,
+.wg-collection .section-heading h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.wg-collection .section-heading {
+  text-align: left !important;
+}
+
+.wg-collection .pub-list-item {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 420px) {
+  .wg-about-biography .portrait-title h2 {
+    font-size: 1.55rem;
+  }
+}

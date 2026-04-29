@@ -1,19 +1,24 @@
 ---
 avatar_filename: avatar.jpg
 bio: My research interests include causal inference, semiparametric and empirical process methods, and applications to real-world problems.
-interests: []
+interests:
+  - Causal inference
+  - Semiparametric and empirical process methods
+  - Applications to real-world problems
 social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=EvVe_rwAAAAJ&hl=zh-CN&oi=ao
-organizations: []
+organizations:
+  - name: Texas A&M University
+    url: https://artsci.tamu.edu/statistics/
 education:
   courses:
     - course: Ph.D. in Statistics
       institution: Texas A&M University
-      year: Present
+      year: 2027 (Expected)
     - course: BSc in Statistics
-      institution: Sun-Yat Sen University
+      institution: Sun Yat-sen University (SYSU)
       year: 2022
 superuser: false
 status:
